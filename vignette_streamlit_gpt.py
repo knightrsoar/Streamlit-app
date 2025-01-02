@@ -16,10 +16,14 @@ def read_vignette(file_path):
         raise Exception(f"Error reading vignette file: {str(e)}")
 
 # Configuration with hardcoded API key
+# Fetch API key from Streamlit secrets
+api_key = st.secrets["openai_api_key"]
+
+# Configuration with API key from secrets
 config_list = [
     {
         'model': 'gpt-4',
-        'api_key': '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',
+        'api_key': api_key,
         "temperature": 1.0,
  #       "seed": 45735737357357,
     },
