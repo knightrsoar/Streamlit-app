@@ -1,0 +1,17 @@
+{
+  "question": "A 45-year-old man presents to the clinic with a 6-month history of progressive numbness and tingling in his left arm and leg. He also reports occasional episodes of sharp, shooting pain in the same areas. His medical history is significant for poorly controlled diabetes mellitus. Physical examination reveals decreased sensation to pinprick and temperature in the left arm and leg, with preserved vibration and proprioception. Which of the following locations is most likely the site of the lesion causing these symptoms?",
+  "correct_answer": "Left lateral spinothalamic tract",
+  "incorrect_answers": [
+    "Right lateral spinothalamic tract",
+    "Left dorsal columns",
+    "Right dorsal columns",
+    "Left corticospinal tract"
+  ],
+  "rationales": [
+    "The correct answer is the left lateral spinothalamic tract. This tract carries pain and temperature sensations. The patient's symptoms of decreased sensation to pinprick and temperature, along with the unilateral distribution, suggest a lesion in the spinothalamic tract on the same side as the symptoms.",
+    "The right lateral spinothalamic tract is incorrect because it carries sensations from the opposite side of the body. A lesion here would cause symptoms in the right arm and leg, not the left.",
+    "The left dorsal columns are incorrect because they primarily carry vibration and proprioceptive sensations. A lesion in this area would affect these modalities, which are preserved in this patient.",
+    "The right dorsal columns are also incorrect for the same reason as the left dorsal columns. Additionally, a lesion here would affect the right side of the body.",
+    "The left corticospinal tract is incorrect because it primarily carries motor fibers, not sensory. A lesion in this tract would typically present with weakness or paralysis, not sensory deficits."
+  ]
+}
