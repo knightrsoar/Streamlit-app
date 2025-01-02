@@ -19,7 +19,7 @@ def read_vignette(file_path):
 config_list = [
     {
         'model': 'gpt-4',
-        'api_key': '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',
+        'api_key': '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',
         "temperature": 1.0,
  #       "seed": 45735737357357,
     },
