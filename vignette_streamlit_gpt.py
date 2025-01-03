@@ -22,7 +22,7 @@ api_key = st.secrets["openai_api_key"]
 # Configuration with API key from secrets
 config_list = [
     {
-        'model': 'gpt-3.5-turbo',
+        'model': 'gpt-4',
         'api_key': api_key,
         "temperature": 1.0,
  #       "seed": 45735737357357,
@@ -101,8 +101,7 @@ labeler = autogen.AssistantAgent(
         "The NBME content outline is aprt of your knowledge source"
     ),
     llm_config={
-        "config_list": config_list,
-        "assistant_id": 'asst_PG85C3BIwewAbVuR10iu8Ob6',  # Example Assistant ID for Vignette-Labeler
+        "config_list": config_list
     },
 )
 
