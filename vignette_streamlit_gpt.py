@@ -22,7 +22,7 @@ api_key = st.secrets["openai_api_key"]
 # Configuration with API key from secrets
 config_list = [
     {
-        'model': 'gpt-4',
+        'model': 'gpt-4o',
         'api_key': api_key,
         "temperature": 1.0,
  #       "seed": 45735737357357,
